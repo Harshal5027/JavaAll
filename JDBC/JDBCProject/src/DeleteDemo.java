@@ -27,7 +27,8 @@ public class DeleteDemo {
         }else{
             System.out.println("Deletion Fail");
         }
-
         con.close();
+
+        sc.close();
     }
 }
